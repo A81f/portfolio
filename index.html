@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Asif — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ===== Header / Nav ===== -->
+  <header class="header" id="top">
+    <div class="container nav-wrapper">
+      <a href="#top" class="logo">Asif<span>.</span></a>
+
+      <!-- Mobile nav toggle (CSS only) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+      <label for="nav-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Hi, I’m <span class="accent">Asif</span> 👋</h1>
+        <p class="tagline">Electrical & Electronic Engineering @ KUET • Midfielder • Research Enthusiast</p>
+        <p class="subtitle">
+          I love building things with code, running simulations, and working on data‑driven research.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="mailto:ashifahommed@gmail.com" class="btn btn-outline">Hire Me</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <!-- Replace with your own image -->
+        <img src="asif.jpg" alt="Asif portrait">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div>
+        <h2>About Me</h2>
+        <p>
+          I’m Asif, a 1st year EEE student at KUET. I enjoy AC (Alternating Current) problems, simulation-based research,
+          and low-cost semiconductor projects suitable for IEEE publications. Outside academics, I play midfield for Shahid
+          Smriti Hall (SSH) ⚽.
+        </p>
+        <p>
+          Currently exploring: semiconductor research topics with minimal hardware, survey-driven agri research, and
+          portfolio/product design for CVIT.
+        </p>
+        <a href="asif_cv.pdf" class="btn btn-outline">Download CV</a>
+      </div>
+      <div class="about-cards">
+        <div class="card">
+          <h3>Education</h3>
+          <p>EEE, KUET — 1st Year, 1st Term</p>
+        </div>
+        <div class="card">
+          <h3>Interests</h3>
+          <p>AC circuits, Semiconductors, Data research,coding,problem solving Football, Gaming</p>
+        </div>
+        <div class="card">
+          <h3>Projects</h3>
+          <p>Low-cost semiconductor simulation, Farmers Count research, CVIT product design</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span class="skill">C++</span>
+        <span class="skill">MATLAB/Simulink</span>
+        <span class="skill">LTspice / Multisim</span>
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">Data Analysis</span>
+        <span class="skill">LaTeX / IEEE Format</span>
+        <span class="skill">Research Survey Design</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Featured Projects</h2>
+
+      <div class="projects grid-3">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <img src="https://via.placeholder.com/800x500.png?text=Project+Screenshot+1" alt="Project 1">
+          <div class="project-content">
+            <h3>Low-cost Semiconductor Simulation</h3>
+            <p>
+              A simulation-focused semiconductor research idea designed to be IEEE-publication friendly with minimal
+              physical components.
+            </p>
+            <div class="project-links">
+              <a href="#" class="btn btn-small">Live</a>
+              <a href="#" class="btn btn-outline btn-small">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <img src="https://via.placeholder.com/800x500.png?text=Project+Screenshot+2" alt="Project 2">
+          <div class="project-content">
+            <h3>Farmers Count Research (Data & Survey)</h3>
+          <p>
+            Data-driven study on the decreasing number of farmers in Bangladesh, collecting info directly from older farmers.
+          </p>
+            <div class="project-links">
+              <a href="#" class="btn btn-small">Paper</a>
+              <a href="#" class="btn btn-outline btn-small">Dataset</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <img src="https://via.placeholder.com/800x500.png?text=Project+Screenshot+3" alt="Project 3">
+          <div class="project-content">
+            <h3>CVIT Product Poster & Action Plan</h3>
+            <p>
+              Designed a complete poster, FB group banner, action plan, and proposal for a CVIT product.
+            </p>
+            <div class="project-links">
+              <a href="#" class="btn btn-small">Preview</a>
+              <a href="#" class="btn btn-outline btn-small">Docs</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Got a project, research idea, or just want to say hi? Drop a message!</p>
+
+      <form class="contact-form" action="https://formspree.io/f/mjkoyqrr" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name*</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email*</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message*</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+
+      <div class="socials">
+        <a href="https://github.com/A81f" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/asif-mondol-9b7b64361/" aria-label="LinkedIn">LinkedIn</a>
+        <a href="mailto:ashifahommed@gmail.com" aria-label="Email">Email</a>
+        <a href="#" aria-label="codeforces">codeforces</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Asif. All rights reserved.</p>
+      <a href="#top" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Tiny inline JS only for dynamic year (optional, remove if you want 100% HTML/CSS) -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
